@@ -1,0 +1,59 @@
+body {
+    background: url(../images/pg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: helvetica, Arial, sans-serif;
+}
+
+.main {
+	background: rgba(255,255,255,0.7);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px 5px purple;
+}
+h1 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+h3:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-weight: bold
+}
+img {
+	background: white;
+	width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid purple;
+   
+}
